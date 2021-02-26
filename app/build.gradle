@@ -8,7 +8,7 @@ android {
     // buildToolsVersion is optional because the plugin uses a recommended version by default
 
     defaultConfig {
-        applicationId 'org.y20k.transistor'
+        applicationId 'org.y20k.crepe.junction'
         minSdkVersion 25
         targetSdkVersion 30
         versionCode 82
