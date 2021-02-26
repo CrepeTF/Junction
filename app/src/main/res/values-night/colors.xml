@@ -20,7 +20,7 @@
     <color name="player_button_background">@color/transistor_blue</color>
     <color name="player_background">@color/transistor_grey_dark</color>
     <color name="player_sheet_text_main">@color/transistor_white</color>
-    <color name="player_sheet_background">@color/transistor_grey_darker</color>
+    <color name="player_sheet_background">@color/transistor_grey_dark</color>
     <color name="player_sheet_background_border">@color/transistor_grey_dark</color>
     <!-- <color name="player_sheet_background">@color/transistor_grey_dark</color> -->
     <color name="player_sheet_text_details">@color/transistor_white</color>
