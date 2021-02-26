@@ -236,7 +236,7 @@ data class LayoutHolder(var rootView: View) {
             onboardingQuoteViews.isVisible = false
         } else {
             onboardingImportViews.isVisible = false
-            onboardingQuoteViews.isVisible = false
+            onboardingQuoteViews.isVisible = true
         }
     }
 
