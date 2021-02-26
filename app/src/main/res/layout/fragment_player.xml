@@ -78,7 +78,8 @@
             android:id="@+id/station_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
+            android:paddingTop="15dp"
             android:visibility="visible" />
 
         <!-- ONBOARDING -->
