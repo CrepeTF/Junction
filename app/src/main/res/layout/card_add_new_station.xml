@@ -44,10 +44,11 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         app:cardBackgroundColor="@color/transistor_transparent"
-        app:cardCornerRadius="4dp"
+        app:cardCornerRadius="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/card_add_new_station"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardElevation="0dp">
 
         <ImageButton
             android:id="@+id/settings_button"
