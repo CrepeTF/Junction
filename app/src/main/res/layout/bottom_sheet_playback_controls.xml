@@ -97,7 +97,7 @@
         android:layout_height="68dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="2dp"
-        android:indeterminateTint="@color/transistor_red_lighter"
+        android:indeterminateTint="@color/transistor_blue_lighter"
         android:indeterminateTintMode="src_in"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
