@@ -5,9 +5,9 @@
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
         <!-- Set AppCompat’s colors -->
-        <item name="colorPrimary">@color/transistor_grey_dark</item>
+        <item name="colorPrimary">@color/transistor_white</item>
         <item name="colorPrimaryDark">@color/transistor_grey_darker</item>
-        <item name="colorAccent">@color/transistor_red</item>
+        <item name="colorAccent">@color/transistor_blue</item>
 
         <!-- Show white status bar -->
         <item name="android:windowLightStatusBar">true</item>

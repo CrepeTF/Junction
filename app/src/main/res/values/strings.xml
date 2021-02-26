@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
-    <string name="app_name">Transistor</string>
+    <string name="app_name">Junction</string>
     <!-- please do not translate app_name - transcription into different alphabet types is fine though -->
-    <string name="app_version_name" translatable="false">\"Andy Warhol\"</string>
+    <string name="app_version_name" translatable="false">\"CrepeTF\"</string>
     <!-- Fragment -->
     <string name="fragment_settings_title">Settings</string>
+    <string name="fragment_settings_home_p1">Junction</string>
+    <string name="fragment_settings_home_p2">Transistor</string>
     <!-- Dialogs -->
     <string name="dialog_edit_choose_station_image">Choose</string>
     <string name="dialog_edit_place_on_home_screen">Place on Home screen</string>
