@@ -31,8 +31,8 @@
     <color name="list_card_background">@color/transistor_white</color>
     <color name="list_card_background_starred">@color/transistor_blue</color>
     <color name="list_card_cover_background">@color/transistor_grey_very_light</color>
-    <color name="list_card_delete_background">@color/transistor_blue</color>
-    <color name="list_card_mark_starred_background">@color/transistor_grey_dark</color>
+    <color name="list_card_delete_background">@color/transistor_delete</color>
+    <color name="list_card_mark_starred_background">@color/transistor_starred</color>
     <color name="list_card_station_buffering_progress_background">@color/transistor_grey_lighter</color>
 
     <color name="search_result_background">@color/transistor_grey_very_light</color>
@@ -45,6 +45,9 @@
     <color name="transistor_grey_very_light">#FFF2F2F2</color>
     <color name="transistor_grey_dark">#FF303135</color>
     <color name="transistor_grey_darker">#FF222326</color>
+
+    <color name="transistor_starred">#FFFF9800</color>
+    <color name="transistor_delete">#F44336</color>
 
     <color name="transistor_blue">#FF87B2FB</color> <!-- Slightly muted variant of -> Material Design 2: Red 600 -->
     <color name="transistor_blue_light">#FF9ABFFF</color>

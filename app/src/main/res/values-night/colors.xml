@@ -31,8 +31,8 @@
     <color name="list_card_background">@color/transistor_black</color>
     <color name="list_card_background_starred">@color/transistor_blue_darker</color>
     <color name="list_card_cover_background">@color/transistor_grey_darker</color>
-    <color name="list_card_delete_background">@color/transistor_blue</color>
-    <color name="list_card_mark_starred_background">@color/transistor_grey_darker</color>
+    <color name="list_card_delete_background">@color/transistor_delete</color>
+    <color name="list_card_mark_starred_background">@color/transistor_starred</color>
     <color name="list_card_station_buffering_progress_background">@color/transistor_grey_light</color>
 
     <color name="search_result_background">@color/transistor_grey_dark</color>
