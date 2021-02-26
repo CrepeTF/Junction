@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="@color/transistor_grey"
+        app:strokeColor="@color/show_notes_divider"
         app:strokeWidth="0.8dp"
         app:cardElevation="0dp">
 

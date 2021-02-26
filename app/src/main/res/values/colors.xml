@@ -2,7 +2,7 @@
 
 <resources>
     <!-- DAY THEME COLORS -->
-    <color name="app_window_background">@color/transistor_grey_very_light</color>
+    <color name="app_window_background">@color/transistor_white</color>
     <color name="status_bar_background">@color/transistor_white</color>
     <color name="app_onboarding_icons">@color/transistor_grey_dark</color>
 
@@ -12,6 +12,7 @@
     <color name="text_default">@color/transistor_grey_dark</color>
     <color name="text_lightweight">@color/transistor_grey</color>
 
+    <color name="icon_accented">@color/transistor_blue_darker</color>
     <color name="icon_default">@color/transistor_grey</color>
     <color name="icon_lightweight">@color/transistor_grey_light</color>
     <color name="icon_very_lightweight">@color/transistor_grey_lighter</color>
@@ -25,7 +26,7 @@
     <color name="player_sheet_up_next_background">@color/transistor_grey</color>
     <color name="player_sheet_icon">@color/transistor_white</color>
 
-    <color name="show_notes_divider">@color/transistor_grey_very_light</color>
+    <color name="show_notes_divider">@color/transistor_grey_lighter</color>
 
     <color name="list_card_background">@color/transistor_white</color>
     <color name="list_card_background_starred">@color/transistor_blue</color>

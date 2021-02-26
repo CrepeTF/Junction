@@ -12,6 +12,7 @@
     <color name="text_default">@color/transistor_white</color>
     <color name="text_lightweight">@color/transistor_grey_very_light</color>
 
+    <color name="icon_accented">@color/transistor_blue</color>
     <color name="icon_default">@color/transistor_white</color>
     <color name="icon_lightweight">@color/transistor_grey_very_light</color>
     <color name="icon_very_lightweight">@color/transistor_grey_lighter</color>
@@ -36,5 +37,6 @@
 
     <color name="search_result_background">@color/transistor_grey_dark</color>
     <color name="search_result_background_selected">@color/transistor_grey</color>
+
 
 </resources>

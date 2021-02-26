@@ -1,10 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/player_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/app_window_background"
     android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/transistor_transparent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_gravity="center"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/transistor_transparent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/title_p1"
+                android:layout_width="100dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                app:layout_constraintEnd_toStartOf="@id/title_p2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:srcCompat="@drawable/ic_title_junction_24dp"
+                app:tint="@color/text_default" />
+
+            <ImageView
+                android:id="@+id/title_p2"
+                android:layout_width="110dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center_vertical"
+                android:alpha="0.8"
+                app:layout_constraintStart_toEndOf="@id/title_p1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:srcCompat="@drawable/ic_title_transistor_24dp"
+                app:tint="@color/text_default" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/show_notes_divider" />
+
+    </LinearLayout>
 
     <android.widget.ProgressBar
         android:id="@+id/download_progress_indicator"
@@ -27,7 +78,7 @@
             android:id="@+id/station_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="10dp"
             android:visibility="visible" />
 
         <!-- ONBOARDING -->
