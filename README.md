@@ -1,7 +1,7 @@
 README
 ======
 # Junction - a Transistor UI overhaul
-**Based on Version 4.0.x of Transistor by Andy Warhol**
+**Based on Version 4.0.x of Transistor (codename "Andy Warhol") by [y20k](http://y20k.org)**
 
 
 ## App icon
